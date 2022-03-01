@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CaesarCipherTwo
+comment0.text=\n\ Encrypt\ and\ decrypt\ a\ message\ with\ Caesar\ Cipher\ with\ two\ keys\ of\ encryption.\n\n\ @author\ cabronito\n\ @version\ 2022-02-26\ v1.0\n
+comment1.params=key1\ key2
+comment1.target=CaesarCipherTwo(int,\ int)
+comment1.text=\n\ Constructor\n
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment2.text=\n\ encryptTwoKeys\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ the\ \n\ following\ algorithm.\ Parameter\ key1\ is\ used\ to\ encrypt\ every\ other\ \n\ character\ with\ the\ Caesar\ Cipher\ algorithm,\ starting\ with\ the\ first\n\ character,\ and\ key2\ is\ used\ to\ encrypt\ every\ other\ character,\ \n\ starting\ with\ the\ second\ character.\ For\ example,\ the\ call\ \n\ encryptTwoKeys(\u201CFirst\ Legion\u201D,\ 23,\ 17)\ should\ return\ \n\ \ \ \ \ \ \u201CCzojq\ Ivdzle\u201D\n\ \ \ \ \ \ \n\ Note\ the\ \u2018F\u2019\ is\ encrypted\ with\ key\ 23,\ the\ first\ \u2018i\u2019\ with\ 17,\ \n\ the\ \u2018r\u2019\ with\ 23,\ and\ the\ \u2018s\u2019\ with\ 17,\ etc.\ \n\n\ @param\ \ \ \ \ \ input\n\ @return\ \ \ \ \ encrypted\n
+comment3.params=input
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment3.text=\n\ decrypt\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ the\ Caesar\ Cipher\ \n\ algorithm.\n\n\ @param\ \ \ \ \ \ input\n\ @return\ \ \ \ \ decrypted\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CaesarCipher
+comment0.text=\n\ CaesarCipher\ encrypt\ and\ decrypt\ message\ from\ a\ file\ using\ the\ duke\ library\n\n\ @author\ cabronito\n\ @version\ 2022-02-25\n
+comment1.params=key
+comment1.target=CaesarCipher(int)
+comment1.text=\n\ Object\ constructor\ of\ CaesarCipher's\ class\n
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment2.text=\n\ encrypt\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ the\ Caesar\ Cipher\ \n\ algorithm.\ Assume\ that\ all\ the\ alphabetic\ characters\ are\ uppercase\ \n\ letters.\ For\ example,\ the\ call\n\ \ \ \ \ \ encrypt(\u201CFIRST\ LEGION\ ATTACK\ EAST\ FLANK\!\u201D,\ 23)\n\ \n\ should\ return\ the\ string\ \n\ \ \ \ \ \ \u201CCFOPQ\ IBDFLK\ XQQXZH\ BXPQ\ CIXKH\!\u201D\n\n\ @param\ \ \ \ \ \ input,\ key\n\ @return\ \ \ \ \ encrypted\n
+comment3.params=input
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment3.text=\n\ decrypt\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ the\ Caesar\ Cipher\ \n\ algorithm.\n\n\ @param\ \ \ \ \ \ input\n\ @return\ \ \ \ \ decrypted\n
+numComments=4
